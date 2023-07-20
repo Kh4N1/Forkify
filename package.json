@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Cooking recipes application",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kh4N1/Forkify.git"
+  },
+  "author": "AliReza Khani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kh4N1/Forkify/issues"
+  },
+  "homepage": "https://github.com/Kh4N1/Forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
+    "sass": "^1.64.0"
+  }
+}
