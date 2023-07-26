@@ -597,7 +597,7 @@ const controlRecipes = async function() {
         (0, _recipeViewDefault.default).renderSpiner();
         // 1 - loading recipe
         await _modelJs.loadRecipe(id);
-        const { recipe } = _modelJs.state;
+        // const { recipe } = model.state;
         // 2- rendering recipe
         (0, _recipeViewDefault.default).render(_modelJs.state.recipe);
     } catch (err) {
