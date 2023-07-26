@@ -21,6 +21,7 @@ const timeout = function (s) {
 ///////////////////////////////////////
 
 
+
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
