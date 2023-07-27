@@ -22,7 +22,8 @@ const controlRecipes = async function () {
     // 2- rendering recipe
     recipeView.render(model.state.recipe);
   } catch (err) {
-    console.error(`${err} 🤦‍♂️🤦‍♂️🤦‍♂️🤦‍♂️ IN controller.js 🤦‍♂️`);
+    // console.error(`${err} 🤦‍♂️🤦‍♂️🤦‍♂️🤦‍♂️ IN controller.js 🤦‍♂️`);
+    recipeView.renderError();
   }
 };
 
