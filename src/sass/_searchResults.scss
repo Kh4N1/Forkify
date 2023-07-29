@@ -1,5 +1,5 @@
 .search-results {
-  padding: 3rem 0;
+  //padding: 3rem 0;
   display: flex;
   flex-direction: column;
 }
@@ -10,7 +10,7 @@
 }
 
 .pagination {
-  margin-top: auto;
+  margin-bottom: auto;
   padding: 0 3.5rem;
 
   &::after {
