@@ -25,7 +25,7 @@ export const loadRecipe = async function (id) {
       cookingTime: recipe.cooking_time,
       ingredients: recipe.ingredients,
     };
-    console.log(state.recipe);
+    // console.log(state.recipe);
   } catch (err) {
     console.error(`${err} 👀👀👀👀 IN model.js --> loadRecipe👀`);
     throw err;
@@ -46,9 +46,9 @@ export const loadSearchResults = async function (query) {
         image: rec.image_url,
       };
     });
+    // console.log(state.search.results)
   } catch (err) {
     console.error(`${err} 👀👀👀👀 IN model.js -> loadSearchResults 👀`);
     throw err;
   }
 };
-// loadSearchResults('pizza');
