@@ -134,3 +134,6 @@ class recipeView extends View {
 }
 
 export default new recipeView();
+
+
+
