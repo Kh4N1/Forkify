@@ -98,7 +98,7 @@ const controlBookmarks = function () {
 const controlAddRecipe = async function (newRecipe) {
   try {
     // show loading spinner
-    addRecipeView.renderSpiner()
+    addRecipeView.renderSpiner();
 
     // upload new recipe
     await model.uploadRecipe(newRecipe);
@@ -110,9 +110,15 @@ const controlAddRecipe = async function (newRecipe) {
     // Seccess massage
     addRecipeView.renderMessage();
 
+    // render bookmark view
+    bookmarksView.render(model.state.bookmarks);
+
+    // change ID in URL
+    window.history.pushState(null, '', `#${model.state.recipe.id}`);
+
     // Close form window
     setTimeout(function () {
-      // addRecipeView.toggleWindow();
+      addRecipeView.toggleWindow();
     }, MODEL_COLSE_SEC * 1000);
   } catch (err) {
     console.error('❌', err);
