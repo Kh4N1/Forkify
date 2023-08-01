@@ -14,4 +14,4 @@ $ npm start // parcel index.html
 ```
 
 
-![image](https://user-images.githubusercontent.com/97041347/171200719-c58f2756-a7dc-45c6-82c2-062ca2382711.png)
+![image](https://github.com/Kh4N1/Forkify/blob/main/ScreenShot%20of%20Project.png)
