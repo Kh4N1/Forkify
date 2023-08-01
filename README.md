@@ -7,10 +7,11 @@ Forkify is a vanilla JavaScript application that interacts with the Forkify API 
 If you are living in IRAN, you have to use VPN for geting response massage from API that i used in this project.
 We are going to execute this project using parcel.
 
-![image](https://user-images.githubusercontent.com/97041347/171200719-c58f2756-a7dc-45c6-82c2-062ca2382711.png)
-
 ```
 $ cd ../Forkify
 $ npm install
 $ npm start // parcel index.html
 ```
+
+
+![image](https://user-images.githubusercontent.com/97041347/171200719-c58f2756-a7dc-45c6-82c2-062ca2382711.png)
