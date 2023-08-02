@@ -4,7 +4,7 @@ Forkify is a vanilla JavaScript application that leverages the Forkify API to fe
 
 ## Setup
 
-If you are living in IRAN, you have to use VPN for geting response massage from API that i used in this project.
+If you are living in IRAN, you have to use VPN for getting response massage from API that i used in this project.
 We are going to execute this project using parcel.
 
 ```
